@@ -2,7 +2,7 @@
 Mt. Gox のアドレスを監視して、twitter および line に通知を送る。
 
 ## How to use
-.apisecret に通知に必要となる鍵を記入。  
+.apisecret.json に通知に必要となる鍵を記入。  
 必要なパッケージを
 `pip install urllib3 pandas twitter`
 によりインストール。  
@@ -15,4 +15,4 @@ Mt. Gox のアドレスを監視して、twitter および line に通知を送�
 
 ## line
 line に通知するために必要な鍵を [LINE Notify](https://notify-bot.line.me/ja/) にて作成。  
-.apisecret の line_token の欄に記入。  
+.apisecret.json の line_token の欄に記入。  
