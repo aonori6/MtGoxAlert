@@ -16,3 +16,6 @@ Mt. Gox のアドレスを監視して、twitter および line に通知を送�
 ## line
 line に通知するために必要な鍵を [LINE Notify](https://notify-bot.line.me/ja/) にて作成。  
 .apisecret.json の line_token の欄に記入。  
+
+## 免責事項
+本ソフトウェアによって生じる一切の損害について作成者は責任を負いません。
