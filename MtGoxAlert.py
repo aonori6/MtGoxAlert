@@ -100,7 +100,7 @@ if __name__ == '__main__':
                 logging.info('New transaction is detected...')
                 diff = df["final_balance"][i] - response["final_balance"]
                 message = str(sat2btc(diff)) + " BTC is moved from Mt Gox address:" + df["address"][i]
-                tweet(message)
+                # tweet(message)
                 line(message)
                 df["n_tx"][i] = response["n_tx"]
                 df["total_received"][i] = response["n_tx"]
